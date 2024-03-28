@@ -29,4 +29,6 @@ public class Person {
 
     @Column(name = "password")
     private String password;
+
+    private String role;
 }
